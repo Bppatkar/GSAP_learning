@@ -1,0 +1,45 @@
+@import url("https://fonts.cdnfonts.com/css/woodland");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100vh;
+  width: 100%;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Woodland", sans-serif;
+}
+
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #e3e3c4;
+}
+.page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #556043;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page2 h1 {
+  color: #433b34;
+  font-size: 5.5vw;
+  line-height: 5.5vw;
+  text-align: center;
+  font-weight: 400;
+}
+.page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #e3e3c4;
+}
